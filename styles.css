@@ -1,0 +1,130 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --max-width: 1240px;
+  --font-family: 'Roboto', sans-serif;
+  --padding: 1rem;
+  --header-margin-bottom: 1.5rem;
+  --line-height: 1.6;
+  --font-size: 16px;
+
+  /* Light Theme Colors */
+  --primary-color-light: #FFFFFF;
+  --background-color-light: #F0F0F0;
+  --text-color-light: #333;
+  --link-color-light: #1a73e8;
+
+  /* Dark Theme Colors */
+  --primary-color-dark: #1E1E1E;
+  --background-color-dark: #121212;
+  --text-color-dark: #E0E0E0;
+  --link-color-dark: #8ab4f8;
+}
+
+/* Light Theme */
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: var(--primary-color-light);
+    --background-color: var(--background-color-light);
+    --text-color: var(--text-color-light);
+    --link-color: var(--link-color-light);
+  }
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: var(--primary-color-dark);
+    --background-color: var(--background-color-dark);
+    --text-color: var(--text-color-dark);
+    --link-color: var(--link-color-dark);
+  }
+}
+
+/* Global Styles */
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+body {
+  max-width: var(--max-width);
+  min-height: 100dvh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: var(--padding);
+}
+
+/* Header Styles */
+header {
+  padding: var(--padding) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--header-margin-bottom);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 24px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+header a:hover,
+header a:focus {
+  color: darken(var(--link-color), 10%);
+}
+
+
+/* Footer Styles */
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+
+/* Main Content Styles */
+main {
+  padding: var(--padding) 0;
+  flex-grow: 1;
+}
+
+/* Additional Styles for Readability */
+p {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: darken(var(--link-color), 10%);
+}
