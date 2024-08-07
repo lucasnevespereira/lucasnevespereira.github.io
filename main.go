@@ -20,7 +20,16 @@ type Config struct {
 	Title       string `yaml:"title"`
 	Description string `yaml:"description"`
 	Lang        string `yaml:"lang"`
-	Socials     []struct {
+	Author      string `yaml:"author"`
+	SiteUrl     string `yaml:"siteUrl"`
+	Bio         string `yaml:"bio"`
+	AvatarUrl   string `yaml:"avatarUrl"`
+	Email       string `yaml:"email"`
+	Links       []struct {
+		Name string `yaml:"name"`
+		URL  string `yaml:"url"`
+	}
+	Socials []struct {
 		Name string `yaml:"name"`
 		URL  string `yaml:"url"`
 	} `yaml:"socials"`

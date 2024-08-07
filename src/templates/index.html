@@ -1,39 +1,41 @@
 <!doctype html>
-<html lang="{{.Config.Lang}}">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{{.Config.Description}}" />
-    <meta name="author" content="{{.Config.Title}}" />
-    <link rel="" favicon="assets/favicon.ico" />
+    <meta name="author" content="{{.Config.Author}}" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>{{.Config.Title}} - Software Engineer</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   </head>
   <body>
     <header>
-      <a href="/" aria-label="Homepage">lucasnp</a>
+      <section class="profile">
+        <img src="{{.Config.AvatarUrl}}" alt="Avatar" class="avatar" />
+        <h1>{{.Config.Title}}</h1>
+        <small class="bio">{{.Config.Bio}}</small>
+      </section>
     </header>
     <main>
-      <section>
-        <h1>Hi, I'm {{.Config.Title}}</h1>
-        <div>{{.Content}}</div>
+      <section class="links">
+        {{range .Config.Links}}
+        <a
+          class="link-item"
+          href="{{.URL}}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{.Name}}</a
+        >
+        {{end}}
       </section>
     </main>
     <footer>
-      <ul>
-        {{range .Config.Socials}}
-        <li>
-          <a
-            class="social-link"
-            href="{{.URL}}"
-            target="_blank"
-            rel="noopener noreferrer"
-            >{{.Name}}</a
-          >
-        </li>
-        {{end}}
-      </ul>
+      <p>© <span class="year"></span> {{.Config.Author}}</p>
     </footer>
     <script src="assets/js/script.js"></script>
   </body>
