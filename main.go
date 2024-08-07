@@ -6,6 +6,7 @@ import (
 	"html/template"
 	"io"
 	"log"
+	"lucasnevespereira/src/configs"
 	"os"
 	"path/filepath"
 
@@ -13,31 +14,11 @@ import (
 	"github.com/tdewolff/minify/v2/css"
 	"github.com/tdewolff/minify/v2/js"
 	"github.com/yuin/goldmark"
-	"gopkg.in/yaml.v2"
 )
-
-type Config struct {
-	Title       string `yaml:"title"`
-	Description string `yaml:"description"`
-	Lang        string `yaml:"lang"`
-	Author      string `yaml:"author"`
-	SiteUrl     string `yaml:"siteUrl"`
-	Bio         string `yaml:"bio"`
-	AvatarUrl   string `yaml:"avatarUrl"`
-	Email       string `yaml:"email"`
-	Links       []struct {
-		Name string `yaml:"name"`
-		URL  string `yaml:"url"`
-	}
-	Socials []struct {
-		Name string `yaml:"name"`
-		URL  string `yaml:"url"`
-	} `yaml:"socials"`
-}
 
 func main() {
 	// Load configuration
-	config, err := loadConfig("config.yaml")
+	config, err := configs.LoadSiteConfig("config.yaml")
 	if err != nil {
 		log.Fatalf("Error loading config: %v", err)
 	}
@@ -68,21 +49,6 @@ func main() {
 	fmt.Println("Site generated successfully!")
 }
 
-func loadConfig(path string) (*Config, error) {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return nil, err
-	}
-
-	var config Config
-	err = yaml.Unmarshal(data, &config)
-	if err != nil {
-		return nil, err
-	}
-
-	return &config, nil
-}
-
 func markdownToHTML(content []byte) (string, error) {
 	var buf bytes.Buffer
 	md := goldmark.New()
@@ -94,7 +60,7 @@ func markdownToHTML(content []byte) (string, error) {
 	return buf.String(), nil
 }
 
-func generateHTML(config *Config, content string) error {
+func generateHTML(config *configs.SiteConfig, content string) error {
 	// Load HTML template
 	tmpl, err := template.ParseFiles("src/templates/index.html")
 	if err != nil {
@@ -110,7 +76,7 @@ func generateHTML(config *Config, content string) error {
 
 	// Define data to pass to the template
 	data := struct {
-		Config  *Config
+		Config  *configs.SiteConfig
 		Content template.HTML
 	}{
 		Config:  config,

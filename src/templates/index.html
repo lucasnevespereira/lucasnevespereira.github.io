@@ -1,23 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{.Config.Meta.Lang}}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{.Config.Description}}" />
-    <meta name="author" content="{{.Config.Author}}" />
+    <meta name="description" content="{{.Config.Meta.Description}}" />
+    <meta name="author" content="{{.Config.Meta.Author}}" />
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>{{.Config.Title}} - Software Engineer</title>
+    <title>{{.Config.Meta.Title}}</title>
   </head>
   <body>
     <header>
       <section class="profile">
         <img src="{{.Config.AvatarUrl}}" alt="Avatar" class="avatar" />
-        <h1>{{.Config.Title}}</h1>
+        <h1>{{.Config.Name}}</h1>
         <small class="bio">{{.Config.Bio}}</small>
       </section>
     </header>
@@ -35,7 +35,7 @@
       </section>
     </main>
     <footer>
-      <p>© <span class="year"></span> {{.Config.Author}}</p>
+      <p>© <span class="year"></span> {{.Config.Meta.Author}}</p>
     </footer>
     <script src="assets/js/script.js"></script>
   </body>
