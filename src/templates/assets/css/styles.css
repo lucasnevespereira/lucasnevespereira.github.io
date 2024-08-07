@@ -73,6 +73,7 @@ header {
   padding: var(--padding) 0;
   text-align: center;
   margin-bottom: var(--header-margin-bottom);
+  width: 100%;
 }
 
 
@@ -128,6 +129,8 @@ main {
   flex-direction: column;
   gap: 1rem;
   text-align: center;
+  overflow-y: scroll;
+  max-height: 400px;
 }
 
 .link-item {
@@ -156,6 +159,26 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3px;
+}
+
+/* SrollBar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
 }
 
