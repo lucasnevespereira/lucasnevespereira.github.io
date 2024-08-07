@@ -97,6 +97,26 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.contact {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact-button {
+  display: inline-block;
+  font-size: 0.9em;
+  color: var(--bio-color);
+  background-color: transparent;
+  /* border: 1px solid var(--bio-color); */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+  color: var(--link-color);
+}
+
 /* Main Content Styles */
 main {
   width: 100%;
@@ -133,4 +153,9 @@ footer {
   text-align: center;
   padding: 1rem 0;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
+

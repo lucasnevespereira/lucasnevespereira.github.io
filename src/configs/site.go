@@ -7,12 +7,12 @@ import (
 )
 
 type SiteConfig struct {
-	Name      string  `yaml:"name"`
-	Bio       string  `yaml:"bio"`
-	AvatarUrl string  `yaml:"avatarUrl"`
-	Meta      Meta    `yaml:"meta"`
-	Links     []Link  `yaml:"links"`
-	Contact   Contact `yaml:"contact"`
+	Name    string  `yaml:"name"`
+	Bio     string  `yaml:"bio"`
+	Picture string  `yaml:"picture"`
+	Meta    Meta    `yaml:"meta"`
+	Links   []Link  `yaml:"links"`
+	Contact Contact `yaml:"contact"`
 }
 
 type Contact struct {

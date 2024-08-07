@@ -4,21 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{{.Config.Meta.Description}}" />
+    <title>{{.Config.Meta.Title}}</title>
     <meta name="author" content="{{.Config.Meta.Author}}" />
-    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+    <link rel="canonical" href="{{.Config.Meta.SiteUrl}}" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>{{.Config.Meta.Title}}</title>
+
+    <meta property="og:title" content="{{.Config.Meta.Title}}" />
+    <meta property="og:site_name" content="{{.Config.Meta.Title}}" />
+    <meta property="og:description" content="{{.Config.Meta.Description}}" />
+    <meta property="og:locale" content="{{.Config.Meta.Lang}}" />
+
+    <meta name="twitter:title" content="{{.Config.Meta.Title}}" />
+    <meta name="twitter:description" content="{{.Config.Meta.Description}}" />
+
+    <meta name="language" content="{{.Config.Meta.Lang}}" />
   </head>
   <body>
     <header>
       <section class="profile">
-        <img src="{{.Config.AvatarUrl}}" alt="Avatar" class="avatar" />
+        <img src="{{.Config.Picture}}" alt="Picture" class="avatar" />
         <h1>{{.Config.Name}}</h1>
         <small class="bio">{{.Config.Bio}}</small>
+        <div class="contact">
+          <a class="contact-button" href="mailto:{{.Config.Contact.Email}}">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </a>
+        </div>
       </section>
     </header>
     <main>
