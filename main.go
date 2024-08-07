@@ -136,6 +136,9 @@ func copyAndMinifyAssets() error {
 	if err := os.MkdirAll("assets/img", os.ModePerm); err != nil {
 		return fmt.Errorf("failed to create assets/img directory: %w", err)
 	}
+	if err := os.MkdirAll("assets/icons", os.ModePerm); err != nil {
+		return fmt.Errorf("failed to create assets/icons directory: %w", err)
+	}
 
 	// Minify and combine CSS files
 	cssFiles, err := filepath.Glob("src/templates/assets/css/*.css")
@@ -164,12 +167,12 @@ func copyAndMinifyAssets() error {
 		return fmt.Errorf("failed to copy image files: %w", err)
 	}
 
-	// Copy icons (e.g., favicon)
-	iconFiles, err := filepath.Glob("src/templates/assets/favicon.ico")
+	// Copy favicons
+	iconsFiles, err := filepath.Glob("src/templates/assets/icons/*")
 	if err != nil {
 		return fmt.Errorf("failed to list icon files: %w", err)
 	}
-	if err := copyFiles(iconFiles, "assets"); err != nil {
+	if err := copyFiles(iconsFiles, "assets/icons"); err != nil {
 		return fmt.Errorf("failed to copy icon files: %w", err)
 	}
 
