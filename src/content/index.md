@@ -3,7 +3,6 @@ I am **Lucas**, a software engineer from **Portugal** living in **Paris, France*
 
 In my spare time I am passionate about building products, learning from it, and contributing to open-source projects.
 
-
 ### What I’m Working On:
 
 - [PingBuddy.io](https://pingbuddy.io): A website monitoring service that helps small website owners keep track of their site’s uptime with ease. I’m focused on making it simple and affordable, with features like real-time website checks, notifications, and status pages.
