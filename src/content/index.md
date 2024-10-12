@@ -8,14 +8,11 @@ In my spare time I am passionate about building software, learning from it, and 
 
 #### I have some open source projects:
 
-A [command-line tool](https://github.com/lucasnevespereira/go-gituser) to easily switch between git accounts.
-
-An open-source [resume builder](https://github.com/lucasnevespereira/resumme-builder) that generates resumes using HTML/CSS templates and JSON data.
-
+A [command-line tool](https://github.com/lucasnevespereira/go-gituser) to easily switch between git accounts.\
+An open-source [resume builder](https://github.com/lucasnevespereira/resumme-builder) that generates resumes using HTML/CSS templates and JSON data.\
 A minimal [headless CMS](https://github.com/lucasnevespereira/barecms) designed to cover the bare essentials of content management.
 
 #### I've also built:
 
-A [personal finance app](https://github.com/lucasnevespereira/meffin-front) that calculates monthly budgets by saving recurring or one-time transactions.
-
+A [personal finance app](https://github.com/lucasnevespereira/meffin-front) that calculates monthly budgets by saving recurring or one-time transactions.\
 A [recipe app](https://github.com/lucasnevespereira/recipio-app) dedicated to preserving family and personal recipes, creating personal or family pages to organize them.
