@@ -3,16 +3,19 @@ I am **Lucas**, a software engineer from **Portugal** living in **Paris, France*
 
 In my spare time I am passionate about building products, learning from it, and contributing to open-source projects.
 
-#### What I've Built:
 
-A [command-line tool](https://github.com/lucasnevespereira/go-gituser) to switch easily between git accounts.
+### What I’m Working On:
 
-An open-source [resume builder](https://github.com/lucasnevespereira/resumme-builder) allowing you to generate a resume using HTML/CSS templates and JSON data.
+- [PingBuddy.io](https://pingbuddy.io): A website monitoring service that helps small website owners keep track of their site’s uptime with ease. I’m focused on making it simple and affordable, with features like real-time website checks, notifications, and status pages.
 
-#### What I’m Working On:
+### Open Source Projects:
 
-A [personal finance app](https://github.com/lucasnevespereira/meffin-front) that calculates a monthly budget by saving recurrent or temporary transactions.
+- A [command-line tool](https://github.com/lucasnevespereira/go-gituser) to easily switch between git accounts.
+- An open-source [resume builder](https://github.com/lucasnevespereira/resumme-builder) that generates resumes using HTML/CSS templates and JSON data.
+- A minimal [headless CMS](https://github.com/lucasnevespereira/barecms) designed to cover the bare essentials of content management.
 
-A [recipe app](https://github.com/lucasnevespereira/recipio-app) dedicated to preserving family and personal recipes by generating personal or family pages.
 
-An open-source [headless cms](https://github.com/lucasnevespereira/barecms) with the bare minimal.
+### I've Also Built:
+
+- A [personal finance app](https://github.com/lucasnevespereira/meffin-front) that calculates monthly budgets by saving recurring or one-time transactions.
+- A [recipe app](https://github.com/lucasnevespereira/recipio-app) dedicated to preserving family and personal recipes, creating personal or family pages to organize them.
