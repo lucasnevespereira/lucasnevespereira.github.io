@@ -7,7 +7,7 @@
 
 /* Variables */
 :root {
-  --max-width: 992px;
+  --max-width: 768px;
   --font-family: 'Inter', sans-serif;
   --padding: 1rem;
   --header-margin-bottom: 1rem;
