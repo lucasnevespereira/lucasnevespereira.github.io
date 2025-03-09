@@ -4,7 +4,7 @@ In my spare time I am passionate about building products, learning from it, and 
 
 #### What I’m Working On:
 
-[BlogBuddy.io](https://blogbuddy.io): An AI-powered tool to create configurable writing assistants (buddies) to help you write blog posts.
+[BlogBuddy.io](https://blogbuddy.io): An AI-powered platform that helps websites and blogs attract more organic traffic. It analyzes your website, extracts SEO insights, and generates optimized articles to improve search rankings and increase organic traffic.
 
 #### Open Source Projects:
 
