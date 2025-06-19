@@ -55,6 +55,7 @@
     <header>
       <img src="{{.Config.Picture}}" alt="Picture" class="avatar" />
       <div class="actions">
+        {{ if ne .Config.Contact.CV "" }}
         <a class="contact-button" target="_blank" href="{{.Config.Contact.CV}}">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -77,6 +78,7 @@
             <path d="M16 17H8" />
           </svg>
         </a>
+        {{end}}
         <a
           class="contact-button"
           target="_blank"
