@@ -4,10 +4,10 @@ In my spare time I am passionate about building products, learning from it, and 
 
 #### Open Source Software:
 
-- Contributor to [Workout.Cool](https://github.com/Snouzy/workout-cool), an open-source workout tracker.
 - [GitUser](https://github.com/lucasnevespereira/go-gituser): A command-line tool to easily switch between git accounts.
 - [Resumme-Builder](https://github.com/lucasnevespereira/resumme-builder): An open-source resume builder that generates resumes using HTML/CSS templates and JSON data.
 - [BareCMS](https://github.com/lucasnevespereira/barecms): A minimal headless CMS designed to cover the bare essentials of content management.
+- Maintainer at [Workout.Cool](https://github.com/Snouzy/workout-cool), an open-source workout tracker.
 
 #### I’ve also built:
 
