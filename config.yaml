@@ -5,7 +5,7 @@ meta:
   lang: "en"
   description: "Software Engineer from Portugal living in Paris, France"
   title: "Lucas Neves Pereira"
-  author: "Lucas Neves Pereira"
+  author: "lucasnp"
   siteUrl: "https://lucasnp.dev"
 links:
   - name: "Github"
@@ -32,8 +32,6 @@ contact:
       url: "https://www.youtube.com/c/lucaasnp"
     - name: "twitter"
       url: "https://x.com/lucaasnp_"
-    - name: "bluesky"
-      url: "https://bsky.app/profile/lucasnp.dev"
     - name: "blog"
       url: "https://dev.to/lucasnevespereira"
 theme: "default"
