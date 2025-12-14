@@ -14,6 +14,6 @@ In my spare time I am passionate about building products, learning from it, and 
 
 - [workout.cool](https://github.com/Snouzy/workout-cool): maintainer, helping shape an open-source workout tracker and support contributors.
 
-- [autoremind.app](https://autoremind.app): tiny SMS reminder tool for small businesses.
+- [autoremind.app](https://autoremind.app): simple, lightweight  SMS reminder system for small businesses.
 
 - [pingbuddy.io](https://pingbuddy.io): website monitoring with real-time checks, alerts, and status pages.
