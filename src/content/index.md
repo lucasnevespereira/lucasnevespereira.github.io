@@ -4,7 +4,7 @@ In my spare time I am passionate about building products, learning from it, and 
 
 #### Things I’m Building:
 
-- [showw](https://showw.it): indie maker page to showcase projects and startups, track revenue, and share your journey.
+- [showw](https://showw.it): indie maker page to showcase projects, track revenue, and share your journey.
 
 - [autoremind](https://autoremind.app): simple, lightweight SMS reminder system for small businesses.
 
