@@ -88,9 +88,9 @@ header {
 }
 
 .avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 12px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
   object-fit: cover;
   filter: grayscale(20%);
   image-rendering: -webkit-optimize-contrast;
