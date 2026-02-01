@@ -7,17 +7,8 @@
     <title>Lucas Neves Pereira</title>
     <meta name="author" content="lucasnp" />
     <link rel="canonical" href="https://lucasnp.dev" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/icons/favicon-lucas.png"
-    />
-    
-    <link rel="shortcut icon" href="/assets/icons/favicon-lucas.png" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
-    />
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon-lucas.png" />
+    <link rel="shortcut icon" href="assets/icons/favicon-lucas.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <meta property="og:title" content="Lucas Neves Pereira" />
@@ -39,162 +30,51 @@
     <meta name="language" content="en" />
   </head>
   <body>
-    <header>
-      <img src="picture.jpg" alt="Picture" class="avatar" />
-      <div class="actions">
-        
-        <a
-          class="contact-button"
-          target="_blank"
-          href="https://buymeacoffee.com/lucaasnp"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-coffee"
-          >
-            <path d="M10 2v2" />
-            <path d="M14 2v2" />
-            <path
-              d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"
-            />
-            <path d="M6 2v2" />
-          </svg>
-        </a>
-        <a
-          class="contact-button"
-          target="_blank"
-          href="mailto:lnevespereira@proton.me"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-mail"
-          >
-            <rect width="20" height="16" x="2" y="4" rx="2" />
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-          </svg>
-        </a>
-        <div id="theme-toggle" target="_blank" class="theme-toggle-button">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-sun"
-          >
-            <circle cx="12" cy="12" r="4" />
-            <path d="M12 2v2" />
-            <path d="M12 20v2" />
-            <path d="m4.93 4.93 1.41 1.41" />
-            <path d="m17.66 17.66 1.41 1.41" />
-            <path d="M2 12h2" />
-            <path d="M20 12h2" />
-            <path d="m6.34 17.66-1.41 1.41" />
-            <path d="m19.07 4.93-1.41 1.41" />
-          </svg>
-        </div>
-      </div>
-    </header>
     <main>
-      <div class="content"><p>I am <strong>Lucas</strong>, a software engineer from <strong>Portugal</strong> living in <strong>Paris, France</strong>.</p>
-<p>In my spare time I am passionate about building products, learning from it, and contributing to open-source projects. I also love <strong>cold weather</strong> and <strong>mountain hikes</strong>.</p>
-<h4>Things I’m Building:</h4>
+      <header>
+        <img src="picture.jpg" alt="Picture" class="avatar" />
+        <div class="header-actions">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-icon">○</span>
+          </button>
+        </div>
+      </header>
+      
+      <div class="content"><p><strong>Lucas</strong> — software engineer in Paris, France.</p>
+<p>I build small open source tools. I also love cold weather and mountain hikes.</p>
+<p><strong>Projects:</strong></p>
 <ul>
-<li>
-<p><a href="https://showw.it">showw</a>: indie maker page to showcase projects, track revenue, and share your journey.</p>
-</li>
-<li>
-<p><a href="https://autoremind.app">autoremind</a>: simple, lightweight SMS reminder system for small businesses.</p>
-</li>
-<li>
-<p><a href="https://pingbuddy.io">pingbuddy</a>: website monitoring with real-time checks, alerts, and status pages.</p>
-</li>
-<li>
-<p><a href="https://github.com/lucasnevespereira/go-gituser">gituser</a>: command-line tool to easily switch between git accounts.</p>
-</li>
-<li>
-<p><a href="https://github.com/lucasnevespereira/resumme-builder">resumme-builder</a>: open source tool that generates resumes from json data with customizable html/css themes.</p>
-</li>
-<li>
-<p><a href="https://github.com/lucasnevespereira/dashmin">dashmin</a>: minimal dashboard for monitoring your apps from the terminal.</p>
-</li>
-<li>
-<p><a href="https://barecms.dev">barecms</a>: lightweight, open-source headless CMS designed with bare minimalism in mind.</p>
-</li>
-<li>
-<p><a href="https://github.com/Snouzy/workout-cool">workout.cool</a>: maintainer, helping shape an open-source workout tracker and support contributors.</p>
-</li>
+<li><strong><a href="https://github.com/snowztech/candipack-pdf">candipack-pdf</a></strong> — pdf resume &amp; cover letter generator</li>
+<li><strong><a href="https://pingbuddy.io">pingbuddy</a></strong> — uptime monitoring with status pages</li>
+<li><strong><a href="https://barecms.dev">barecms</a></strong> — headless cms for minimalists</li>
+<li><strong><a href="https://onereply.app">onereply</a></strong> — inbox scanner for pending replies</li>
+<li><strong><a href="https://autoremind.app">autoremind</a></strong> — sms reminders for small businesses</li>
+<li><strong><a href="https://github.com/lucasnevespereira/go-gituser">gituser</a></strong> — git account switcher</li>
+<li><strong><a href="https://github.com/lucasnevespereira/dashmin">dashmin</a></strong> — terminal app dashboard</li>
+<li><strong><a href="https://github.com/lucasnevespereira/resumme-builder">resumme-builder</a></strong> — json resume generator</li>
+<li><strong><a href="https://vyrecreations.com">vyrecreations</a></strong> — artisan furniture store</li>
+<li><strong><a href="https://showw.it">showw</a></strong> — indie maker page &amp; revenue tracker</li>
+<li><strong><a href="https://github.com/Snouzy/workout-cool">workout.cool</a></strong> — open source fitness tracker (maintainer)</li>
 </ul>
 </div>
+      
+      <footer>
+        <div class="links">
+          
+          <a href="https://github.com/lucasnevespereira" target="_blank" rel="noopener noreferrer">github</a>
+          
+          <a href="https://www.linkedin.com/in/lucasnevespereira/" target="_blank" rel="noopener noreferrer">linkedin</a>
+          
+          <a href="https://www.youtube.com/c/lucaasnp" target="_blank" rel="noopener noreferrer">youtube</a>
+          
+          <a href="https://x.com/lucaasnp_" target="_blank" rel="noopener noreferrer">twitter</a>
+          
+          <a href="https://dev.to/lucasnevespereira" target="_blank" rel="noopener noreferrer">blog</a>
+          
+        </div>
+        <span class="copyright">© <span class="year"></span></span>
+      </footer>
     </main>
-    <footer>
-      <div class="socials">
-        
-        <a
-          class="socials-link"
-          href="https://github.com/lucasnevespereira"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><p>github</p>
-        </a>
-        
-        <a
-          class="socials-link"
-          href="https://www.linkedin.com/in/lucasnevespereira/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><p>linkedin</p>
-        </a>
-        
-        <a
-          class="socials-link"
-          href="https://www.youtube.com/c/lucaasnp"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><p>youtube</p>
-        </a>
-        
-        <a
-          class="socials-link"
-          href="https://x.com/lucaasnp_"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><p>twitter</p>
-        </a>
-        
-        <a
-          class="socials-link"
-          href="https://dev.to/lucasnevespereira"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><p>blog</p>
-        </a>
-        
-      </div>
-      <p class="copyright">
-        © <span class="year"></span> lucasnp
-      </p>
-    </footer>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
