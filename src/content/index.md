@@ -1,17 +1,23 @@
-**Lucas** — software engineer in Paris, France.
+I am **Lucas**, a software engineer from **Portugal** living in **Paris, France**.
 
-I build small open source tools. I also love cold weather and mountain hikes.
+In my spare time I am passionate about building products, learning from it, and contributing to open-source projects. I also love **cold weather** and **mountain hikes**.
 
-**Projects:**
+#### Things I’m Building:
 
-- **[candipack-pdf](https://github.com/snowztech/candipack-pdf)** — pdf resume & cover letter generator
-- **[pingbuddy](https://pingbuddy.io)** — uptime monitoring with status pages
-- **[barecms](https://barecms.dev)** — headless cms for minimalists
-- **[onereply](https://onereply.app)** — inbox scanner for pending replies
-- **[autoremind](https://autoremind.app)** — sms reminders for small businesses
-- **[gituser](https://github.com/lucasnevespereira/go-gituser)** — git account switcher
-- **[dashmin](https://github.com/lucasnevespereira/dashmin)** — terminal app dashboard
-- **[resumme-builder](https://github.com/lucasnevespereira/resumme-builder)** — json resume generator
-- **[vyrecreations](https://vyrecreations.com)** — artisan furniture store
-- **[showw](https://showw.it)** — indie maker page & revenue tracker
-- **[workout.cool](https://github.com/Snouzy/workout-cool)** — open source fitness tracker (maintainer)
+- [onereply](https://onereply.app): scans your inbox and let's you know if an email needs a reply.
+
+- [showw](https://showw.it): indie maker page to showcase projects, track revenue, and share your journey.
+
+- [autoremind](https://autoremind.app): simple, lightweight SMS reminder system for small businesses.
+
+- [pingbuddy](https://pingbuddy.io): website monitoring with real-time checks, alerts, and status pages.
+
+- [gituser](https://github.com/lucasnevespereira/go-gituser): command-line tool to easily switch between git accounts.
+
+- [resumme-builder](https://github.com/lucasnevespereira/resumme-builder): open source tool that generates resumes from json data with customizable html/css themes.
+
+- [dashmin](https://github.com/lucasnevespereira/dashmin): minimal dashboard for monitoring your apps from the terminal.
+
+- [barecms](https://barecms.dev): lightweight, open-source headless CMS designed with bare minimalism in mind.
+
+- [workout.cool](https://github.com/Snouzy/workout-cool): maintainer, helping shape an open-source workout tracker and support contributors.

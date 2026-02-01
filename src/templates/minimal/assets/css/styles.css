@@ -93,6 +93,7 @@ header {
   border-radius: 50%;
   object-fit: cover;
   filter: grayscale(20%);
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .theme-toggle {
