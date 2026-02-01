@@ -1,5 +1,5 @@
 name: "Lucas Neves Pereira"
-picture: "avatar-grey.png"
+picture: "avatar-crop.png"
 bio: "Software Engineer. Building open source tools."
 meta:
   lang: "en"
@@ -14,8 +14,8 @@ links:
     url: "https://www.linkedin.com/in/lucasnevespereira/"
   - name: "Youtube"
     url: "https://www.youtube.com/c/lucaasnp"
-  - name: "Twitter/X"
-    url: "https://twitter.com/lucaasnp_"
+  - name: "X"
+    url: "https://x.com/lucaasnp_"
   - name: "Dev.to"
     url: "https://dev.to/lucasnevespereira"
 contact:

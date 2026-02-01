@@ -1,6 +1,6 @@
 **Lucas** — software engineer in Paris.
 
-I build small open source tools. I love cold weather and mountain hikes.
+I build open source tools. I love cold weather and hikes.
 
 **Projects:**
 
@@ -12,6 +12,6 @@ I build small open source tools. I love cold weather and mountain hikes.
 - **[gituser](https://github.com/lucasnevespereira/go-gituser)** — git switcher
 - **[dashmin](https://github.com/lucasnevespereira/dashmin)** — terminal dashboard
 - **[resumme-builder](https://github.com/lucasnevespereira/resumme-builder)** — json resume
-- **[vyrecreations](https://vyrecreations.com)** — artisan furniture
+- **[vyrecreations](https://vyrecreations.com)** — artisan store
 - **[showw](https://showw.it)** — indie maker page
 - **[workout.cool](https://github.com/Snouzy/workout-cool)** — fitness tracker
