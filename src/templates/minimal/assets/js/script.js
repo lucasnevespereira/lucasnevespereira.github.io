@@ -18,12 +18,23 @@
     if (icon) icon.textContent = "○";
   }
 
-  // Toggle handler
-  toggle?.addEventListener("click", () => {
-    const isDark = body.classList.toggle("dark");
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-    if (icon) icon.textContent = isDark ? "●" : "○";
-  });
+  // Toggle handler - supports both click and touch
+  if (toggle) {
+    const handleToggle = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const isDark = body.classList.toggle("dark");
+      try {
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      } catch (err) {
+        // localStorage might not work in private mode
+      }
+      if (icon) icon.textContent = isDark ? "●" : "○";
+    };
+
+    toggle.addEventListener("click", handleToggle);
+    toggle.addEventListener("touchend", handleToggle, { passive: false });
+  }
 
   // Update year
   const yearEl = document.querySelector(".year");

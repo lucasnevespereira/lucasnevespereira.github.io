@@ -105,8 +105,12 @@ header {
   font-family: inherit;
   font-size: 18px;
   color: var(--text-muted);
-  padding: 0.25rem;
+  padding: 0.75rem;
+  margin: -0.5rem;
   transition: color 0.2s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .theme-toggle:hover {
