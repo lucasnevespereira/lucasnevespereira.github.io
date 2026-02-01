@@ -23,11 +23,13 @@ func main() {
 		log.Fatalf("Error loading config: %v", err)
 	}
 
-	// Load and parse content
-	content, err := os.ReadFile("src/content/index.md")
+	// Load and parse content (with theme override support)
+	contentPath := getContentPath(config.Theme)
+	content, err := os.ReadFile(contentPath)
 	if err != nil {
 		log.Fatalf("Error reading content: %v", err)
 	}
+	log.Printf("Using content: %s", contentPath)
 
 	htmlContent, err := markdownToHTML(content)
 	if err != nil {
@@ -47,6 +49,22 @@ func main() {
 	}
 
 	fmt.Println("Site generated successfully!")
+}
+
+// getContentPath returns the path to content file with theme override support
+// Priority: 1) src/templates/{theme}/content/index.md (theme-specific)
+//  2. src/content/index.md (shared fallback)
+func getContentPath(theme string) string {
+	themeContentPath := filepath.Join("src", "templates", theme, "content", "index.md")
+	sharedContentPath := filepath.Join("src", "content", "index.md")
+
+	// Check if theme-specific content exists
+	if _, err := os.Stat(themeContentPath); err == nil {
+		return themeContentPath
+	}
+
+	// Fall back to shared content
+	return sharedContentPath
 }
 
 func markdownToHTML(content []byte) (string, error) {
