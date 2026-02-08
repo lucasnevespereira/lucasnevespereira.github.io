@@ -51,6 +51,15 @@ body.dark {
   --border: var(--border-dark);
 }
 
+/* Light theme class - takes precedence over dark mode media query */
+:root.light {
+  --bg: var(--bg-light);
+  --text: var(--text-light);
+  --text-muted: var(--text-muted-light);
+  --link: var(--link-light);
+  --border: var(--border-light);
+}
+
 /* Respect system preference */
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
