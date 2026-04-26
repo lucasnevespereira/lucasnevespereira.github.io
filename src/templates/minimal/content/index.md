@@ -9,6 +9,7 @@ I build open source tools. I love cold weather and hikes.
 - **[pingbuddy](https://pingbuddy.io)** — uptime & cron monitor
 - **[autoremind](https://autoremind.app)** — automatic sms reminders
 - **[barecms](https://barecms.dev)** — headless cms
+- **[onport](https://github.com/lucasnevespereira/onport)** — port inspector
 - **[claude-git](https://github.com/lucasnevespereira/claude-git)** — ai git helpers
 - **[logmx](https://github.com/lucasnevespereira/logmx)** — multi-platform log aggregator
 - **[gituser](https://github.com/lucasnevespereira/go-gituser)** — git account switcher
