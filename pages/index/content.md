@@ -1,8 +1,13 @@
+---
+title: Lucas Neves Pereira
+description: Software Engineer from Portugal living in Paris, France. Building open source tools.
+---
+
 I am **Lucas**, a software engineer from **Portugal** living in **Paris, France**.
 
 In my spare time I am passionate about building products, learning from it, and contributing to open-source projects. I also love **cold weather** and **mountain hikes**.
 
-#### Things I’m Building:
+#### Things I'm Building:
 
 - [onereply](https://onereply.app): scans your inbox and let's you know if an email needs a reply.
 
