@@ -4,7 +4,9 @@ I build open source tools. I love cold weather and hikes.
 
 **Projects:**
 
+- **[tvcask](https://tvcask.com)** — your watch history, kept
 - **[nevinho](https://github.com/lucasnevespereira/nevinho)** — personal agent harness
+- **[vikusha](https://github.com/snowztech/vikusha)** — Go framework for always-on AI assistants
 - **[candipack](https://candipack.com)** — tailored job applications
 - **[pingbuddy](https://pingbuddy.io)** — uptime & cron monitor
 - **[autoremind](https://autoremind.app)** — automatic sms reminders
