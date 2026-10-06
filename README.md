@@ -22,7 +22,7 @@ python3 -m http.server 8000 --directory public
 ## Files
 
 - `assets/` holds icons and images. inkssg copies it to `public/assets/`, so `assets/img/picture.jpg` is served at `lucasnp.dev/assets/img/picture.jpg`.
-- `static/` holds files that need a root URL. `make site` copies it to the root of `public/` as is.
+- `static/` holds files that need a root URL. inkssg copies it to the root of `public/` as is.
 
 The snowz page lives in `static/` as `snowz.html`, served at `lucasnp.dev/snowz`. It is not rendered by inkssg, it only reuses the theme's stylesheet.
 
