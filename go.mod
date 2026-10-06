@@ -2,7 +2,7 @@ module lucasnp.dev
 
 go 1.24.6
 
-require github.com/snowztech/inkssg v0.3.0
+require github.com/snowztech/inkssg v0.3.1
 
 require (
 	github.com/fsnotify/fsnotify v1.10.0 // indirect

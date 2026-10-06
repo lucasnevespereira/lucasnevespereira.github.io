@@ -1,7 +1,7 @@
 github.com/fsnotify/fsnotify v1.10.0 h1:Xx/5Ydg9CeBDX/wi4VJqStNtohYjitZhhlHt4h3St1M=
 github.com/fsnotify/fsnotify v1.10.0/go.mod h1:TLheqan6HD6GBK6PrDWyDPBaEV8LspOxvPSjC+bVfgo=
-github.com/snowztech/inkssg v0.3.0 h1:tQ/J/KQLAgOY3eOLOfX5u7RF99Rlb/l9qXNfNnhGFIw=
-github.com/snowztech/inkssg v0.3.0/go.mod h1:vc4sN0gASRyZu+hhRHssZ5Pk1YuU9J0EEinydAmiPn0=
+github.com/snowztech/inkssg v0.3.1 h1:qhZJGMi6+IPlSv1L7ev3bZ/2ENZd/CTMolq/bw4nfA4=
+github.com/snowztech/inkssg v0.3.1/go.mod h1:vc4sN0gASRyZu+hhRHssZ5Pk1YuU9J0EEinydAmiPn0=
 github.com/yuin/goldmark v1.8.2 h1:kEGpgqJXdgbkhcOgBxkC0X0PmoPG1ZyoZ117rDVp4zE=
 github.com/yuin/goldmark v1.8.2/go.mod h1:ip/1k0VRfGynBgxOz0yCqHrbZXhcjxyuS66Brc7iBKg=
 golang.org/x/sys v0.13.0 h1:Af8nKPmuFypiUBjVoU9V20FiaFXOcuZI21p0ycVYYGE=
