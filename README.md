@@ -21,7 +21,7 @@ python3 -m http.server 8000 --directory public
 
 ## Static files
 
-Anything in `static/` is copied to the root of `public/` as is, so `static/picture.jpg` is served at `lucasnp.dev/picture.jpg`. Use it for images and standalone HTML pages.
+`static/` is the site root. Everything in it is copied to `public/` as is, so the path in the repo is the path on the site: `static/picture.jpg` is served at `lucasnp.dev/picture.jpg`. Icons, images and standalone HTML pages all go here.
 
 The snowz page lives there as `static/snowz.html`. It is not rendered by inkssg, it only reuses the theme's stylesheet.
 
