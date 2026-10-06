@@ -3,26 +3,22 @@ title: Lucas Neves Pereira
 description: Software Engineer from Portugal living in Paris, France. Building open source tools.
 ---
 
-I am **Lucas**, a software engineer from **Portugal** living in **Paris, France**.
+**Lucas** — software engineer in Paris.
 
-In my spare time I am passionate about building products, learning from it, and contributing to open-source projects. I also love **cold weather** and **mountain hikes**.
+I build open source tools. I love cold weather and hikes.
 
-#### Things I'm Building:
+**Projects:**
 
-- [onereply](https://onereply.app): scans your inbox and let's you know if an email needs a reply.
-
-- [showw](https://showw.it): indie maker page to showcase projects, track revenue, and share your journey.
-
-- [autoremind](https://autoremind.app): simple, lightweight SMS reminder system for small businesses.
-
-- [pingbuddy](https://pingbuddy.io): website monitoring with real-time checks, alerts, and status pages.
-
-- [gituser](https://github.com/lucasnevespereira/go-gituser): command-line tool to easily switch between git accounts.
-
-- [resumme-builder](https://github.com/lucasnevespereira/resumme-builder): open source tool that generates resumes from json data with customizable html/css themes.
-
-- [dashmin](https://github.com/lucasnevespereira/dashmin): minimal dashboard for monitoring your apps from the terminal.
-
-- [barecms](https://barecms.dev): lightweight, open-source headless CMS designed with bare minimalism in mind.
-
-- [workout.cool](https://github.com/Snouzy/workout-cool): maintainer, helping shape an open-source workout tracker and support contributors.
+- **[farol](https://farol.sh)** — macOS terminal for coding agents
+- **[tvcask](https://tvcask.com)** — your watch history, kept
+- **[nevinho](https://github.com/lucasnevespereira/nevinho)** — personal agent harness
+- **[vikusha](https://github.com/snowztech/vikusha)** — Go framework for always-on AI assistants
+- **[pingbuddy](https://pingbuddy.io)** — uptime & cron monitor
+- **[autoremind](https://autoremind.app)** — automatic sms reminders
+- **[barecms](https://barecms.dev)** — headless cms
+- **[onport](https://github.com/lucasnevespereira/onport)** — port inspector
+- **[gituser](https://github.com/lucasnevespereira/go-gituser)** — git account switcher
+- **[dashmin](https://github.com/lucasnevespereira/dashmin)** — terminal database metrics
+- **[meffin](https://meffin.app)** — budget tracker
+- **[resb](https://github.com/lucasnevespereira/resb)** — json resume cli
+- **[workout.cool](https://github.com/Snouzy/workout-cool)** — fitness tracker (maintainer)
