@@ -19,7 +19,12 @@ python3 -m http.server 8000 --directory public
 - Main site: http://localhost:8000
 - snowz page: http://localhost:8000/snowz.html
 
-The snowz page is a standalone HTML file at `snowz.html`. It is not rendered by inkssg, `make site` copies it and `snowz/` into `public/`. It reuses the theme's stylesheet.
+## Files
+
+- `assets/` holds icons and images. inkssg copies it to `public/assets/`, so `assets/img/picture.jpg` is served at `lucasnp.dev/assets/img/picture.jpg`.
+- `static/` holds files that need a root URL. `make site` copies it to the root of `public/` as is.
+
+The snowz page lives in `static/` as `snowz.html`, served at `lucasnp.dev/snowz`. It is not rendered by inkssg, it only reuses the theme's stylesheet.
 
 ## Deploy
 

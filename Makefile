@@ -2,8 +2,7 @@
 
 site:
 	go run main.go
-	@cp snowz.html public/snowz.html
-	@cp -r snowz public/snowz
+	@cp -R static/. public/
 
 clean:
 	rm -rf public
