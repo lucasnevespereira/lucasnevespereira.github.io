@@ -21,4 +21,5 @@ I build open source tools. I love cold weather and hikes.
 - **[dashmin](https://github.com/lucasnevespereira/dashmin)** — terminal database metrics
 - **[meffin](https://meffin.app)** — budget tracker
 - **[resb](https://github.com/lucasnevespereira/resb)** — json resume cli
+- **[inkssg](https://github.com/snowztech/inkssg)** — static site generator, builds this page
 - **[workout.cool](https://github.com/Snouzy/workout-cool)** — fitness tracker (maintainer)
