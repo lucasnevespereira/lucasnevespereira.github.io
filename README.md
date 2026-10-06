@@ -19,11 +19,12 @@ python3 -m http.server 8000 --directory public
 - Main site: http://localhost:8000
 - snowz page: http://localhost:8000/snowz.html
 
-## Static files
+## Files
 
-`static/` is the site root. Everything in it is copied to `public/` as is, so the path in the repo is the path on the site: `static/picture.jpg` is served at `lucasnp.dev/picture.jpg`. Icons, images and standalone HTML pages all go here.
+- `assets/` holds icons and images. inkssg copies it to `public/assets/`, so `assets/img/picture.jpg` is served at `lucasnp.dev/assets/img/picture.jpg`.
+- `static/` holds files that need a root URL. `make site` copies it to the root of `public/` as is.
 
-The snowz page lives there as `static/snowz.html`. It is not rendered by inkssg, it only reuses the theme's stylesheet.
+The snowz page lives in `static/` as `snowz.html`, served at `lucasnp.dev/snowz`. It is not rendered by inkssg, it only reuses the theme's stylesheet.
 
 ## Deploy
 
