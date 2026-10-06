@@ -1,0 +1,37 @@
+name: Lucas Neves Pereira
+avatar: /assets/img/avatar-grey.png
+bio: Software Engineer. Building open source tools.
+default_theme: minimal
+output_dir: public
+
+meta:
+  lang: en
+  description: Software Engineer from Portugal living in Paris, France. Building open source tools.
+  title: Lucas Neves Pereira
+  author: lucasnp
+  siteUrl: https://lucasnp.dev
+
+links:
+  - name: Github
+    url: https://github.com/lucasnevespereira
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/lucasnevespereira/
+  - name: Youtube
+    url: https://www.youtube.com/c/lucaasnp
+  - name: X
+    url: https://x.com/lucaasnp_
+  - name: Dev.to
+    url: https://dev.to/lucasnevespereira
+
+contact:
+  socials:
+    - name: github
+      url: https://github.com/lucasnevespereira
+    - name: linkedin
+      url: https://www.linkedin.com/in/lucasnevespereira/
+    - name: youtube
+      url: https://www.youtube.com/c/lucaasnp
+    - name: twitter
+      url: https://x.com/lucaasnp_
+    - name: blog
+      url: https://dev.to/lucasnevespereira

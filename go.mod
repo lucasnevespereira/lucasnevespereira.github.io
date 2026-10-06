@@ -1,11 +1,12 @@
-module lucasnevespereira
+module lucasnp.dev
 
-go 1.20
+go 1.24.6
+
+require github.com/snowztech/inkssg v0.2.0
 
 require (
-	github.com/tdewolff/minify/v2 v2.20.37
-	github.com/yuin/goldmark v1.7.4
-	gopkg.in/yaml.v2 v2.4.0
+	github.com/fsnotify/fsnotify v1.10.0 // indirect
+	github.com/yuin/goldmark v1.8.2 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-require github.com/tdewolff/parse/v2 v2.7.15 // indirect

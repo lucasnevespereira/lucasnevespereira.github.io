@@ -1,3 +1,8 @@
+---
+title: Lucas Neves Pereira
+description: Software Engineer from Portugal living in Paris, France. Building open source tools.
+---
+
 **Lucas** — software engineer in Paris.
 
 I build open source tools. I love cold weather and hikes.

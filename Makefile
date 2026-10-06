@@ -1,11 +1,9 @@
-.PHONY: clean site
+.PHONY: site clean
+
+site:
+	go run main.go
+	@cp snowz.html public/snowz.html
+	@cp -r snowz public/snowz
 
 clean:
-	@echo "Cleaning site..."
-	@rm -rf index.html
-	@rm -rf assets
-
-site: clean
-	@echo "Building site..."
-	@go run main.go
-
+	rm -rf public
