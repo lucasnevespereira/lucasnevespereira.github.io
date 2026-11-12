@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{if .Site.Meta.Lang}}{{.Site.Meta.Lang}}{{else}}en{{end}}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{if .Site.Meta.Description}}{{.Site.Meta.Description}}{{else}}{{.Page.Description}}{{end}}" />
+  <title>{{if .Site.Meta.Title}}{{.Site.Meta.Title}}{{else}}{{.Page.Title}}{{end}}</title>
+  {{if .Site.Meta.Author}}
+  <meta name="author" content="{{.Site.Meta.Author}}" />
+  {{end}}
+  {{if .Site.Meta.SiteUrl}}
+  <link rel="canonical" href="{{.Site.Meta.SiteUrl}}" />
+  {{end}}
+
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="/assets/icons/site.webmanifest" />
+
+  <script>
+    try {
+      var t = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@snowztech/ui-css@0.7.0/dist/tokens.css" />
+  <link rel="stylesheet" href="/themes/minimal/styles.css?v=5" />
+
+  {{if .Site.Meta.Title}}
+  <meta property="og:title" content="{{.Site.Meta.Title}}" />
+  <meta property="og:site_name" content="{{.Site.Meta.Title}}" />
+  {{end}}
+  {{if .Site.Meta.Description}}
+  <meta property="og:description" content="{{.Site.Meta.Description}}" />
+  {{end}}
+  {{if .Site.Meta.Lang}}
+  <meta property="og:locale" content="{{.Site.Meta.Lang}}" />
+  {{end}}
+  {{if .Site.Avatar}}
+  <meta property="og:image" content="{{.Site.Meta.SiteUrl}}{{.Site.Avatar}}" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  {{end}}
+
+  {{if .Site.Meta.Title}}
+  <meta name="twitter:title" content="{{.Site.Meta.Title}}" />
+  {{end}}
+  {{if .Site.Meta.Description}}
+  <meta name="twitter:description" content="{{.Site.Meta.Description}}" />
+  {{end}}
+  {{if .Site.Avatar}}
+  <meta name="twitter:image" content="{{.Site.Avatar}}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  {{end}}
+  {{if .Site.Meta.Lang}}
+  <meta name="language" content="{{.Site.Meta.Lang}}" />
+  {{end}}
+</head>
+<body>
+  <main>
+    <header>
+      {{if .Site.Avatar}}
+      <img src="{{.Site.Avatar}}" alt="Picture" class="avatar" />
+      {{end}}
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-icon">○</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="content">{{.Content}}</div>
+
+    <footer>
+      <div class="links">
+        {{if .Site.Contact.Socials}}
+        {{range .Site.Contact.Socials}}
+        <a href="{{.URL}}" target="_blank" rel="noopener noreferrer">{{.Name}}</a>
+        {{end}}
+        {{else if .Site.Links}}
+        {{range .Site.Links}}
+        <a href="{{.URL}}" target="_blank" rel="noopener noreferrer">{{.Name}}</a>
+        {{end}}
+        {{end}}
+      </div>
+      <span class="copyright">built with <a href="https://github.com/snowztech/inkssg" target="_blank" rel="noopener noreferrer">ink</a> · © <span class="year"></span></span>
+    </footer>
+  </main>
+  <script src="/themes/minimal/script.js"></script>
+</body>
+</html>

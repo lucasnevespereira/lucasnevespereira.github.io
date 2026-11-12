@@ -1,25 +1,27 @@
 ---
 title: Lucas Neves Pereira
-description: Software Engineer from Portugal living in Paris, France. Building open source tools.
+description: Software engineer in Paris. Building open-source tools at Snowztech, including Farol, OneCorp, and Holt.
 ---
 
-**Lucas** — software engineer in Paris.
+**Lucas**, software engineer in Paris.
 
-I build open source tools. I love cold weather and hikes.
+I build open-source tools at [snowztech](https://snowztech.com). I love cold weather and hikes.
 
-**Projects:**
+### projects
 
-- **[farol](https://farol.sh)** — macOS terminal for coding agents
-- **[tvcask](https://tvcask.com)** — your watch history, kept
-- **[nevinho](https://github.com/lucasnevespereira/nevinho)** — personal agent harness
-- **[vikusha](https://github.com/snowztech/vikusha)** — Go framework for always-on AI assistants
-- **[pingbuddy](https://pingbuddy.io)** — uptime & cron monitor
-- **[autoremind](https://autoremind.app)** — automatic sms reminders
-- **[barecms](https://barecms.dev)** — headless cms
-- **[onport](https://github.com/lucasnevespereira/onport)** — port inspector
-- **[gituser](https://github.com/lucasnevespereira/go-gituser)** — git account switcher
-- **[dashmin](https://github.com/lucasnevespereira/dashmin)** — terminal database metrics
-- **[meffin](https://meffin.app)** — budget tracker
-- **[resb](https://github.com/lucasnevespereira/resb)** — json resume cli
-- **[inkssg](https://github.com/snowztech/inkssg)** — static site generator, builds this page
-- **[workout.cool](https://github.com/Snouzy/workout-cool)** — fitness tracker (maintainer)
+- **[farol](https://farol.sh)** macOS terminal for coding agents
+- **[onecorp](https://onecorp.dev)** a team of AI employees on your Mac
+- **[holt](https://holt.snowztech.com)** clipboard history, synced across Macs
+- **[gituser](https://github.com/lucasnevespereira/go-gituser)** switch between git accounts
+- **[nevinho](https://github.com/lucasnevespereira/nevinho)** self-hosted AI agent harness
+- **[vikusha](https://github.com/snowztech/vikusha)** Go framework for AI assistants
+- **[tvcask](https://tvcask.com)** your watch history, kept
+- **[barecms](https://barecms.dev)** headless cms
+- **[pingbuddy](https://pingbuddy.io)** uptime and cron monitor
+- **[resb](https://github.com/lucasnevespereira/resb)** json resume cli
+- **[onport](https://github.com/lucasnevespereira/onport)** port inspector
+- **[dashmin](https://github.com/lucasnevespereira/dashmin)** terminal database metrics
+- **[meffin](https://meffin.app)** budget tracker
+- **[autoremind](https://autoremind.app)** sms reminders
+- **[ink](https://github.com/snowztech/inkssg)** static site generator, builds this page
+- **[workout.cool](https://github.com/Snouzy/workout-cool)** fitness tracker, maintainer
