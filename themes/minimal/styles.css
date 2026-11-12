@@ -55,8 +55,14 @@ header {
   font-size: var(--sn-text-lg);
   line-height: 1;
   color: var(--sn-fg-subtle);
-  padding: var(--sn-s-3);
-  margin: calc(-1 * var(--sn-s-3));
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  margin-right: calc(-1 * var(--sn-s-3));
+  border-radius: 50%;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
   transition: color var(--sn-base) var(--sn-ease);
 }
 
