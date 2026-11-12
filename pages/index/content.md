@@ -1,11 +1,11 @@
 ---
 title: Lucas Neves Pereira
-description: Software engineer in Paris. Building open-source tools at Snowztech, including Farol, OneCorp, and Holt.
+description: Software engineer in Paris. Building open-source tools like Farol, OneCorp, and Holt.
 ---
 
 **Lucas**, software engineer in Paris.
 
-I build open-source tools at [snowztech](https://snowztech.com). I love cold weather and hikes.
+I build open-source tools, lately under [snowztech](https://snowztech.com). I love cold weather and hikes.
 
 ### projects
 

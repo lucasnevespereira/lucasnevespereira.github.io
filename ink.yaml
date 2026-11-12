@@ -1,12 +1,12 @@
 name: Lucas Neves Pereira
 avatar: /avatar-grey.png
-bio: Software engineer. Building open-source tools at Snowztech.
+bio: Software engineer. Building open-source tools.
 default_theme: minimal
 output_dir: public
 
 meta:
   lang: en
-  description: Software engineer in Paris. Building open-source tools at Snowztech, including Farol, OneCorp, and Holt.
+  description: Software engineer in Paris. Building open-source tools like Farol, OneCorp, and Holt.
   title: Lucas Neves Pereira
   author: lucasnp
   siteUrl: https://lucasnp.dev
